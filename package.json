@@ -1,9 +1,10 @@
 {
   "name": "harvest-time-splitter",
   "version": "1.0.0",
-  "description": "a basic tool for splitting time entries in Harvest",
-  "main": "index.js",
+  "description": "A basic tool for splitting time entries in Harvest",
+  "main": "server.js",
   "scripts": {
+    "start": "node server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
@@ -12,7 +13,4 @@
   "dependencies": {
     "express": "^4.18.2"
   }
-}
-"scripts": {
-  "start": "node server.js"
 }
